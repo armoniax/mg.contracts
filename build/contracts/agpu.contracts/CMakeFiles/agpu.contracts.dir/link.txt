@@ -1,0 +1,1 @@
+/usr/local/amax.cdt/bin/amax-ld  CMakeFiles/agpu.contracts.dir/src/agpu.contracts.cpp.obj -o agpu.contracts.wasm 

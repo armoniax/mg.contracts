@@ -1,0 +1,507 @@
+{
+    "____comment": "This file was generated with amax-abigen. DO NOT EDIT ",
+    "version": "amax::abi/1.1",
+    "types": [],
+    "structs": [
+        {
+            "name": "addnode",
+            "base": "",
+            "fields": [
+                {
+                    "name": "price",
+                    "type": "asset"
+                },
+                {
+                    "name": "max_sale",
+                    "type": "uint64"
+                },
+                {
+                    "name": "start_time",
+                    "type": "uint32"
+                }
+            ]
+        },
+        {
+            "name": "addorder",
+            "base": "",
+            "fields": [
+                {
+                    "name": "node_id",
+                    "type": "uint64"
+                },
+                {
+                    "name": "user",
+                    "type": "name"
+                },
+                {
+                    "name": "quantity",
+                    "type": "asset"
+                }
+            ]
+        },
+        {
+            "name": "delnode",
+            "base": "",
+            "fields": [
+                {
+                    "name": "node_id",
+                    "type": "uint64"
+                }
+            ]
+        },
+        {
+            "name": "delorder",
+            "base": "",
+            "fields": [
+                {
+                    "name": "order_id",
+                    "type": "uint64"
+                },
+                {
+                    "name": "user",
+                    "type": "name"
+                }
+            ]
+        },
+        {
+            "name": "global_t",
+            "base": "",
+            "fields": [
+                {
+                    "name": "admin",
+                    "type": "name"
+                },
+                {
+                    "name": "bank",
+                    "type": "name"
+                },
+                {
+                    "name": "usdt_contract",
+                    "type": "name"
+                },
+                {
+                    "name": "usdt_symbol",
+                    "type": "symbol"
+                },
+                {
+                    "name": "node_id",
+                    "type": "uint64"
+                },
+                {
+                    "name": "order_id",
+                    "type": "uint64"
+                },
+                {
+                    "name": "invite_period",
+                    "type": "uint64"
+                }
+            ]
+        },
+        {
+            "name": "init",
+            "base": "",
+            "fields": [
+                {
+                    "name": "admin",
+                    "type": "name"
+                },
+                {
+                    "name": "bank",
+                    "type": "name"
+                },
+                {
+                    "name": "usdt_contract",
+                    "type": "name"
+                },
+                {
+                    "name": "usdt_symbol",
+                    "type": "symbol"
+                }
+            ]
+        },
+        {
+            "name": "invite_t",
+            "base": "",
+            "fields": [
+                {
+                    "name": "user",
+                    "type": "name"
+                },
+                {
+                    "name": "inviter",
+                    "type": "name"
+                },
+                {
+                    "name": "invite_count",
+                    "type": "uint64"
+                },
+                {
+                    "name": "create_time",
+                    "type": "time_point_sec"
+                },
+                {
+                    "name": "update_time",
+                    "type": "time_point_sec"
+                }
+            ]
+        },
+        {
+            "name": "node_t",
+            "base": "",
+            "fields": [
+                {
+                    "name": "node_id",
+                    "type": "uint64"
+                },
+                {
+                    "name": "price",
+                    "type": "asset"
+                },
+                {
+                    "name": "max_sale",
+                    "type": "uint64"
+                },
+                {
+                    "name": "total_saled",
+                    "type": "uint64"
+                },
+                {
+                    "name": "status",
+                    "type": "name"
+                },
+                {
+                    "name": "start_time",
+                    "type": "time_point_sec"
+                },
+                {
+                    "name": "create_time",
+                    "type": "time_point_sec"
+                },
+                {
+                    "name": "update_time",
+                    "type": "time_point_sec"
+                }
+            ]
+        },
+        {
+            "name": "node_total_t",
+            "base": "",
+            "fields": [
+                {
+                    "name": "node_id",
+                    "type": "uint64"
+                },
+                {
+                    "name": "total",
+                    "type": "uint64"
+                },
+                {
+                    "name": "create_time",
+                    "type": "time_point_sec"
+                },
+                {
+                    "name": "update_time",
+                    "type": "time_point_sec"
+                }
+            ]
+        },
+        {
+            "name": "order_t",
+            "base": "",
+            "fields": [
+                {
+                    "name": "order_id",
+                    "type": "uint64"
+                },
+                {
+                    "name": "node_id",
+                    "type": "uint64"
+                },
+                {
+                    "name": "user",
+                    "type": "name"
+                },
+                {
+                    "name": "inviter",
+                    "type": "name"
+                },
+                {
+                    "name": "price",
+                    "type": "asset"
+                },
+                {
+                    "name": "create_time",
+                    "type": "time_point_sec"
+                }
+            ]
+        },
+        {
+            "name": "setnode",
+            "base": "",
+            "fields": [
+                {
+                    "name": "node_id",
+                    "type": "uint64"
+                },
+                {
+                    "name": "price",
+                    "type": "asset"
+                },
+                {
+                    "name": "max_sale",
+                    "type": "uint64"
+                },
+                {
+                    "name": "start_time",
+                    "type": "uint32"
+                }
+            ]
+        },
+        {
+            "name": "setnodestate",
+            "base": "",
+            "fields": [
+                {
+                    "name": "node_id",
+                    "type": "uint64"
+                },
+                {
+                    "name": "status",
+                    "type": "name"
+                }
+            ]
+        },
+        {
+            "name": "settotalsale",
+            "base": "",
+            "fields": [
+                {
+                    "name": "node_id",
+                    "type": "uint64"
+                },
+                {
+                    "name": "total_saled",
+                    "type": "uint64"
+                }
+            ]
+        },
+        {
+            "name": "signbind",
+            "base": "",
+            "fields": [
+                {
+                    "name": "user",
+                    "type": "name"
+                },
+                {
+                    "name": "inviter",
+                    "type": "name"
+                }
+            ]
+        },
+        {
+            "name": "signdel",
+            "base": "",
+            "fields": [
+                {
+                    "name": "user",
+                    "type": "name"
+                }
+            ]
+        },
+        {
+            "name": "signedit",
+            "base": "",
+            "fields": [
+                {
+                    "name": "user",
+                    "type": "name"
+                },
+                {
+                    "name": "inviter",
+                    "type": "name"
+                }
+            ]
+        },
+        {
+            "name": "signup",
+            "base": "",
+            "fields": [
+                {
+                    "name": "user",
+                    "type": "name"
+                },
+                {
+                    "name": "inviter",
+                    "type": "name"
+                }
+            ]
+        },
+        {
+            "name": "user_mining_site_t",
+            "base": "",
+            "fields": [
+                {
+                    "name": "account",
+                    "type": "name"
+                },
+                {
+                    "name": "level",
+                    "type": "uint16"
+                },
+                {
+                    "name": "personal_num",
+                    "type": "uint64"
+                },
+                {
+                    "name": "main_force_num",
+                    "type": "uint64"
+                },
+                {
+                    "name": "main_force_account",
+                    "type": "name"
+                },
+                {
+                    "name": "assist_num",
+                    "type": "uint64"
+                },
+                {
+                    "name": "assist_member_num",
+                    "type": "uint64"
+                },
+                {
+                    "name": "team_total_num",
+                    "type": "uint64"
+                },
+                {
+                    "name": "total_num",
+                    "type": "uint64"
+                },
+                {
+                    "name": "claimed_reward",
+                    "type": "asset"
+                },
+                {
+                    "name": "created_at",
+                    "type": "time_point_sec"
+                },
+                {
+                    "name": "updated_at",
+                    "type": "time_point_sec"
+                },
+                {
+                    "name": "upgraded_at",
+                    "type": "time_point_sec"
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "name": "addnode",
+            "type": "addnode",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "addorder",
+            "type": "addorder",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "delnode",
+            "type": "delnode",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "delorder",
+            "type": "delorder",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "init",
+            "type": "init",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "setnode",
+            "type": "setnode",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "setnodestate",
+            "type": "setnodestate",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "settotalsale",
+            "type": "settotalsale",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "signbind",
+            "type": "signbind",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "signdel",
+            "type": "signdel",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "signedit",
+            "type": "signedit",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "signup",
+            "type": "signup",
+            "ricardian_contract": ""
+        }
+    ],
+    "tables": [
+        {
+            "name": "global",
+            "type": "global_t",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        },
+        {
+            "name": "invites",
+            "type": "invite_t",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        },
+        {
+            "name": "nodes",
+            "type": "node_t",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        },
+        {
+            "name": "nodetotals",
+            "type": "node_total_t",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        },
+        {
+            "name": "orders",
+            "type": "order_t",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        },
+        {
+            "name": "usermisite",
+            "type": "user_mining_site_t",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        }
+    ],
+    "ricardian_clauses": [],
+    "variants": []
+}

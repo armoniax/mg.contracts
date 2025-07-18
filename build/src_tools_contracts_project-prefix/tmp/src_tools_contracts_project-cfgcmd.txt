@@ -1,0 +1,1 @@
+cmd='/usr/local/bin/cmake;-DCMAKE_TOOLCHAIN_FILE=/usr/local/amax.cdt/lib/cmake/amax.cdt/AmaxWasmToolchain.cmake;-GUnix Makefiles;<SOURCE_DIR><SOURCE_SUBDIR>'

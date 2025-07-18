@@ -1,0 +1,3 @@
+/Users/joss/code/workspace/920-amc/mg.contracts/build/CMakeFiles/rebuild_cache.dir
+/Users/joss/code/workspace/920-amc/mg.contracts/build/CMakeFiles/src_tools_contracts_project.dir
+/Users/joss/code/workspace/920-amc/mg.contracts/build/CMakeFiles/edit_cache.dir

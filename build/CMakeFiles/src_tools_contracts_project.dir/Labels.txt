@@ -1,0 +1,14 @@
+# Target labels
+ src_tools_contracts_project
+# Source files and their labels
+/Users/joss/code/workspace/920-amc/mg.contracts/build/CMakeFiles/src_tools_contracts_project
+/Users/joss/code/workspace/920-amc/mg.contracts/build/CMakeFiles/src_tools_contracts_project.rule
+/Users/joss/code/workspace/920-amc/mg.contracts/build/CMakeFiles/src_tools_contracts_project-complete.rule
+/Users/joss/code/workspace/920-amc/mg.contracts/build/src_tools_contracts_project-prefix/src/src_tools_contracts_project-stamp/src_tools_contracts_project-install.rule
+/Users/joss/code/workspace/920-amc/mg.contracts/build/src_tools_contracts_project-prefix/src/src_tools_contracts_project-stamp/src_tools_contracts_project-mkdir.rule
+/Users/joss/code/workspace/920-amc/mg.contracts/build/src_tools_contracts_project-prefix/src/src_tools_contracts_project-stamp/src_tools_contracts_project-download.rule
+/Users/joss/code/workspace/920-amc/mg.contracts/build/src_tools_contracts_project-prefix/src/src_tools_contracts_project-stamp/src_tools_contracts_project-update.rule
+/Users/joss/code/workspace/920-amc/mg.contracts/build/src_tools_contracts_project-prefix/src/src_tools_contracts_project-stamp/src_tools_contracts_project-patch.rule
+/Users/joss/code/workspace/920-amc/mg.contracts/build/src_tools_contracts_project-prefix/src/src_tools_contracts_project-stamp/src_tools_contracts_project-configure.rule
+/Users/joss/code/workspace/920-amc/mg.contracts/build/src_tools_contracts_project-prefix/src/src_tools_contracts_project-stamp/src_tools_contracts_project-build.rule
+/Users/joss/code/workspace/920-amc/mg.contracts/build/src_tools_contracts_project-prefix/src/src_tools_contracts_project-stamp/src_tools_contracts_project-test.rule

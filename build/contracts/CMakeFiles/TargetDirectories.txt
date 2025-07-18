@@ -1,0 +1,5 @@
+/Users/joss/code/workspace/920-amc/mg.contracts/build/contracts/CMakeFiles/rebuild_cache.dir
+/Users/joss/code/workspace/920-amc/mg.contracts/build/contracts/CMakeFiles/edit_cache.dir
+/Users/joss/code/workspace/920-amc/mg.contracts/build/contracts/agpu.contracts/CMakeFiles/rebuild_cache.dir
+/Users/joss/code/workspace/920-amc/mg.contracts/build/contracts/agpu.contracts/CMakeFiles/agpu.contracts.dir
+/Users/joss/code/workspace/920-amc/mg.contracts/build/contracts/agpu.contracts/CMakeFiles/edit_cache.dir

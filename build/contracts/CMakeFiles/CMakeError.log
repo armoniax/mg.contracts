@@ -1,0 +1,108 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/local/amax.cdt/bin/amax-cc 
+Build flags: ;-O3;
+Id flags:  
+
+The output was:
+255
+/usr/local/amax.cdt/bin/wasm-ld: error: fatal failure: contract with no actions and trying to create dispatcher
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/amax.cdt/bin/amax-cpp 
+Build flags: ;-O3;
+Id flags:  
+
+The output was:
+255
+/usr/local/amax.cdt/bin/wasm-ld: error: fatal failure: contract with no actions and trying to create dispatcher
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /Users/joss/code/workspace/920-amc/mg.contracts/build/contracts/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c5486/fast"
+make[3]: Entering directory '/Users/joss/code/workspace/920-amc/mg.contracts/build/contracts/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_c5486.dir/build.make CMakeFiles/cmTC_c5486.dir/build
+make[4]: Entering directory '/Users/joss/code/workspace/920-amc/mg.contracts/build/contracts/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c5486.dir/CMakeCCompilerABI.c.obj
+/usr/local/amax.cdt/bin/amax-cc   -O3     -o CMakeFiles/cmTC_c5486.dir/CMakeCCompilerABI.c.obj   -c /usr/local/share/cmake-3.13/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_c5486.wasm
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c5486.dir/link.txt --verbose=1
+/usr/local/amax.cdt/bin/amax-ld  -v CMakeFiles/cmTC_c5486.dir/CMakeCCompilerABI.c.obj -o cmTC_c5486.wasm 
+amax-ld: Unknown command line argument '-v'.  Try: '/usr/local/amax.cdt/bin/amax-ld -help'
+amax-ld: Did you mean '-L'?
+CMakeFiles/cmTC_c5486.dir/build.make:86: recipe for target 'cmTC_c5486.wasm' failed
+make[4]: *** [cmTC_c5486.wasm] Error 1
+make[4]: Leaving directory '/Users/joss/code/workspace/920-amc/mg.contracts/build/contracts/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_c5486/fast' failed
+make[3]: *** [cmTC_c5486/fast] Error 2
+make[3]: Leaving directory '/Users/joss/code/workspace/920-amc/mg.contracts/build/contracts/CMakeFiles/CMakeTmp'
+
+
+
+Detecting C [-std=c11] compiler features failed to compile with the following output:
+Change Dir: /Users/joss/code/workspace/920-amc/mg.contracts/build/contracts/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ac385/fast"
+make[3]: Entering directory '/Users/joss/code/workspace/920-amc/mg.contracts/build/contracts/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_ac385.dir/build.make CMakeFiles/cmTC_ac385.dir/build
+make[4]: Entering directory '/Users/joss/code/workspace/920-amc/mg.contracts/build/contracts/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ac385.dir/feature_tests.c.obj
+/usr/local/amax.cdt/bin/amax-cc   -O3     -std=c11 -o CMakeFiles/cmTC_ac385.dir/feature_tests.c.obj   -c /Users/joss/code/workspace/920-amc/mg.contracts/build/contracts/CMakeFiles/feature_tests.c
+amax-cc: Unknown command line argument '-std=c11'.  Try: '/usr/local/amax.cdt/bin/amax-cc -help'
+amax-cc: Did you mean '-dD=c11'?
+CMakeFiles/cmTC_ac385.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_ac385.dir/feature_tests.c.obj' failed
+make[4]: *** [CMakeFiles/cmTC_ac385.dir/feature_tests.c.obj] Error 1
+make[4]: Leaving directory '/Users/joss/code/workspace/920-amc/mg.contracts/build/contracts/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_ac385/fast' failed
+make[3]: *** [cmTC_ac385/fast] Error 2
+make[3]: Leaving directory '/Users/joss/code/workspace/920-amc/mg.contracts/build/contracts/CMakeFiles/CMakeTmp'
+
+
+
+Detecting CXX compiler ABI info failed to compile with the following output:
+Change Dir: /Users/joss/code/workspace/920-amc/mg.contracts/build/contracts/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_94ea3/fast"
+make[3]: Entering directory '/Users/joss/code/workspace/920-amc/mg.contracts/build/contracts/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_94ea3.dir/build.make CMakeFiles/cmTC_94ea3.dir/build
+make[4]: Entering directory '/Users/joss/code/workspace/920-amc/mg.contracts/build/contracts/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_94ea3.dir/CMakeCXXCompilerABI.cpp.obj
+/usr/local/amax.cdt/bin/amax-cpp    -O3     -o CMakeFiles/cmTC_94ea3.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/local/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_94ea3.wasm
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_94ea3.dir/link.txt --verbose=1
+/usr/local/amax.cdt/bin/amax-ld  -v CMakeFiles/cmTC_94ea3.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_94ea3.wasm 
+amax-ld: Unknown command line argument '-v'.  Try: '/usr/local/amax.cdt/bin/amax-ld -help'
+amax-ld: Did you mean '-L'?
+CMakeFiles/cmTC_94ea3.dir/build.make:86: recipe for target 'cmTC_94ea3.wasm' failed
+make[4]: *** [cmTC_94ea3.wasm] Error 1
+make[4]: Leaving directory '/Users/joss/code/workspace/920-amc/mg.contracts/build/contracts/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_94ea3/fast' failed
+make[3]: *** [cmTC_94ea3/fast] Error 2
+make[3]: Leaving directory '/Users/joss/code/workspace/920-amc/mg.contracts/build/contracts/CMakeFiles/CMakeTmp'
+
+
+
+Detecting CXX [-std=c++2a] compiler features failed to compile with the following output:
+Change Dir: /Users/joss/code/workspace/920-amc/mg.contracts/build/contracts/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_631a3/fast"
+make[3]: Entering directory '/Users/joss/code/workspace/920-amc/mg.contracts/build/contracts/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_631a3.dir/build.make CMakeFiles/cmTC_631a3.dir/build
+make[4]: Entering directory '/Users/joss/code/workspace/920-amc/mg.contracts/build/contracts/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_631a3.dir/feature_tests.cxx.obj
+/usr/local/amax.cdt/bin/amax-cpp    -O3     -std=c++2a -o CMakeFiles/cmTC_631a3.dir/feature_tests.cxx.obj -c /Users/joss/code/workspace/920-amc/mg.contracts/build/contracts/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_631a3.wasm
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_631a3.dir/link.txt --verbose=1
+/usr/local/amax.cdt/bin/amax-ld   CMakeFiles/cmTC_631a3.dir/feature_tests.cxx.obj -o cmTC_631a3.wasm 
+/usr/local/amax.cdt/bin/wasm-ld: error: fatal failure: contract with no actions and trying to create dispatcher
+CMakeFiles/cmTC_631a3.dir/build.make:86: recipe for target 'cmTC_631a3.wasm' failed
+make[4]: *** [cmTC_631a3.wasm] Error 255
+make[4]: Leaving directory '/Users/joss/code/workspace/920-amc/mg.contracts/build/contracts/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_631a3/fast' failed
+make[3]: *** [cmTC_631a3/fast] Error 2
+make[3]: Leaving directory '/Users/joss/code/workspace/920-amc/mg.contracts/build/contracts/CMakeFiles/CMakeTmp'
+
+
+
